@@ -1,22 +1,22 @@
-# MarqueTaPage Desktop
+# Filigo
 
 > **Vos pièces d'identité ne quitteront jamais votre disque dur. Zéro cloud, zéro compromis.**
 >
 > *L'État a son site en ligne, vous avez votre coffre-fort hors-ligne.*
 
-Vous envoyez une copie de votre carte d'identité, d'un justificatif de domicile ou d'une fiche de paie ? MarqueTaPage y ajoute,
+Vous envoyez une copie de votre carte d'identité, d'un justificatif de domicile ou d'une fiche de paie ? Filigo y ajoute,
 sur toute la page, le **nom du destinataire, le motif et la date**. Une copie « remise à l'agence Martin pour un dossier de
 location le 19/10/2026 » ne peut plus servir à ouvrir un compte ou à souscrire un crédit ailleurs : elle se voit tout de suite.
 
 **Tout se passe sur votre ordinateur** : pas de compte, pas de cloud, pas de télémétrie. Windows 10 / 11 et Linux
-(Debian, Ubuntu). Interface en français et en anglais. Version **1.2.0** (Windows) ; paquet Linux : version 1.1.0.
+(Debian, Ubuntu). Interface en français et en anglais. Version **1.3.0** (Windows) ; paquet Linux : version 1.1.0.
 
-*(English: **Your files never leave your machine. Zero cloud. Total sovereignty.** MarqueTaPage adds a watermark with the
+*(English: **Your files never leave your machine. Zero cloud. Total sovereignty.** Filigo adds a watermark with the
 recipient, the purpose and the date across the copies of your ID, proof of address or payslips before you send them, to make
 identity theft harder. 100 % local. Windows 10/11 and Debian/Ubuntu. *The offline stamping utility designed for total privacy.*
 English mode: click the flag at the top right.)*
 
-![MarqueTaPage](captures/06-document-ouvert.png)
+![Filigo](captures/06-document-ouvert.png)
 
 ## Télécharger
 
@@ -24,10 +24,10 @@ Les fichiers sont dans les **[Releases](../../releases/latest)** :
 
 | Système | Fichier | Installation |
 |---|---|---|
-| Windows 10 / 11 | `install_marquetapage.exe` | double-clic ; aucun droit administrateur ; installe pour votre compte |
-| Debian 12+, Ubuntu 24.04+ (64 bits) | `marquetapage-desktop_1.1.0_amd64.deb`, dans la **[Release 1.1.0](../../releases/tag/v1.1.0)** (pas de paquet Linux 1.2.0 pour l'instant) | `sudo apt install ./marquetapage-desktop_1.1.0_amd64.deb` |
+| Windows 10 / 11 | `install_filigo.exe` | double-clic ; aucun droit administrateur ; installe pour votre compte |
+| Debian 12+, Ubuntu 24.04+ (64 bits) | `marquetapage-desktop_1.1.0_amd64.deb`, dans la **[Release 1.1.0](../../releases/tag/v1.1.0)** (pas de paquet Linux 1.3.0 pour l'instant) | `sudo apt install ./marquetapage-desktop_1.1.0_amd64.deb` |
 
-Vérifiez l'empreinte SHA-256 donnée dans les notes de la Release (Windows : `Get-FileHash install_marquetapage.exe` ;
+Vérifiez l'empreinte SHA-256 donnée dans les notes de la Release (Windows : `Get-FileHash install_filigo.exe` ;
 Linux : `sha256sum fichier.deb`). L'installeur propose aussi « Vérifier ce fichier » (en bas de la première page), et l'application
 affiche l'empreinte du programme installé dans **Aide › Version et vérification**.
 
@@ -35,8 +35,8 @@ affiche l'empreinte du programme installé dans **Aide › Version et vérificat
 > d'auteur auto-signé, pas encore reconnu par Windows : si l'empreinte correspond, cliquez sur « Informations complémentaires »
 > puis « Exécuter quand même ».
 
-> **Vous aviez « Filigrane mes documents » 1.0.0 ?** MarqueTaPage Desktop le remplace : l'installeur retire l'ancien dossier et
-> ses raccourcis, vos réglages et votre historique sont conservés. Sous Linux, le nouveau paquet remplace l'ancien.
+> **Vous aviez MarqueTaPage (ou « Filigrane mes documents ») ?** Ce sont les anciens noms de Filigo : l'installeur retire l'ancien dossier et
+> les anciens raccourcis, vos réglages et votre historique sont conservés. Sous Linux, le nouveau paquet remplace l'ancien.
 
 ## L'installation (Windows)
 
