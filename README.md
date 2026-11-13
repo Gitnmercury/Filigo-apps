@@ -16,7 +16,7 @@ recipient, the purpose and the date across the copies of your ID, proof of addre
 identity theft harder. 100 % local. Windows 10/11 and Debian/Ubuntu. *The offline stamping utility designed for total privacy.*
 English mode: click the flag at the top right.)*
 
-![MarqueTaPage Desktop](captures/06-document-ouvert.png)
+![MarqueTaPage](captures/06-document-ouvert.png)
 
 ## Télécharger
 
