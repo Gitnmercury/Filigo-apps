@@ -9,7 +9,7 @@ sur toute la page, le **nom du destinataire, le motif et la date**. Une copie «
 location le 19/10/2026 » ne peut plus servir à ouvrir un compte ou à souscrire un crédit ailleurs : elle se voit tout de suite.
 
 **Tout se passe sur votre ordinateur** : pas de compte, pas de cloud, pas de télémétrie. Windows 10 / 11 et Linux
-(Debian, Ubuntu). Interface en français et en anglais. Version **1.1.0**.
+(Debian, Ubuntu). Interface en français et en anglais. Version **1.2.0** (Windows) ; paquet Linux : version 1.1.0.
 
 *(English: **Your files never leave your machine. Zero cloud. Total sovereignty.** MarqueTaPage adds a watermark with the
 recipient, the purpose and the date across the copies of your ID, proof of address or payslips before you send them, to make
@@ -25,10 +25,11 @@ Les fichiers sont dans les **[Releases](../../releases/latest)** :
 | Système | Fichier | Installation |
 |---|---|---|
 | Windows 10 / 11 | `install_marquetapage.exe` | double-clic ; aucun droit administrateur ; installe pour votre compte |
-| Debian 12+, Ubuntu 24.04+ (64 bits) | `marquetapage-desktop_1.1.0_amd64.deb` | `sudo apt install ./marquetapage-desktop_1.1.0_amd64.deb` |
+| Debian 12+, Ubuntu 24.04+ (64 bits) | `marquetapage-desktop_1.1.0_amd64.deb`, dans la **[Release 1.1.0](../../releases/tag/v1.1.0)** (pas de paquet Linux 1.2.0 pour l'instant) | `sudo apt install ./marquetapage-desktop_1.1.0_amd64.deb` |
 
 Vérifiez l'empreinte SHA-256 donnée dans les notes de la Release (Windows : `Get-FileHash install_marquetapage.exe` ;
-Linux : `sha256sum fichier.deb`).
+Linux : `sha256sum fichier.deb`). L'installeur propose aussi « Vérifier ce fichier » (en bas de la première page), et l'application
+affiche l'empreinte du programme installé dans **Aide › Version et vérification**.
 
 > **Windows peut afficher un avertissement** (« Windows a protégé votre PC »). L'installeur est signé avec un certificat
 > d'auteur auto-signé, pas encore reconnu par Windows : si l'empreinte correspond, cliquez sur « Informations complémentaires »
@@ -43,8 +44,8 @@ Un assistant à l'ancienne, simple et sans surprise. Rien n'est téléchargé, r
 
 | | |
 |---|---|
-| ![Bienvenue](captures/01-installeur-accueil.png) | **Bienvenue.** Installation pour votre compte uniquement, sans droit administrateur. Si une version est déjà installée, l'assistant propose de la mettre à jour, de la réinstaller ou de la désinstaller. |
-| ![Word](captures/02-installeur-word.png) | **Fichiers Word.** L'assistant regarde si Microsoft Word ou LibreOffice est présent (sans les lancer). Ils ne servent qu'à ouvrir les fichiers Word : les PDF et les photos fonctionnent sans rien d'autre. |
+| ![Bienvenue](captures/01-installeur-accueil.png) | **Bienvenue.** Usage **particulier** : en continuant, vous déclarez installer et utiliser le logiciel en tant que particulier, à titre privé ; entreprise, association ou usage professionnel : bouton « Licence entreprise » (licence@ohtna.fr). Installation pour votre compte uniquement, sans droit administrateur. Si une version est déjà installée, l'assistant propose de la mettre à jour, de la réinstaller ou de la désinstaller. |
+| ![Word](captures/02-installeur-word.png) | **Fichiers Word.** L'assistant regarde si Microsoft Word, LibreOffice ou Apache OpenOffice est présent (sans les lancer) et dit lequel sera utilisé en priorité. Ils ne servent qu'à ouvrir les fichiers Word : les PDF et les photos fonctionnent sans rien d'autre. |
 | ![Installation](captures/03-installeur-installation.png) | **Installation.** Barre à blocs et petites astuces d'usage pendant la copie des fichiers. Pour désinstaller ensuite : Paramètres › Applications › Applications installées. |
 
 ## Comment ça marche
@@ -89,6 +90,8 @@ même façon (convertis sur votre ordinateur).
 - Une **trame de très petits caractères** (destinataire et date) couvre aussi les marges, et le contour des lettres est
   légèrement irrégulier pour gêner l'effacement automatique.
 - Des **avertissements bienveillants** : destinataire trop vague, date passée.
+- **Connecteurs** : en bas de la fenêtre, un carré coloré par outil de conversion Word (vert : présent, orange : non installé, rouge :
+  ne fonctionne pas) ; Aide › Tester les connecteurs fait un essai réel.
 - Trois thèmes (Bleu, Argent, Sombre), trois tailles de texte, un clavier complet.
 
 ![Aide](captures/09-aide.png)
