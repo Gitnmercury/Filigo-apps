@@ -92,6 +92,9 @@ même façon (convertis sur votre ordinateur).
 - Des **avertissements bienveillants** : destinataire trop vague, date passée.
 - **Connecteurs** : en bas de la fenêtre, un carré coloré par outil de conversion Word (vert : présent, orange : non installé, rouge :
   ne fonctionne pas) ; Aide › Tester les connecteurs fait un essai réel.
+
+![Connecteurs](captures/11-connecteurs.png)
+
 - Trois thèmes (Bleu, Argent, Sombre), trois tailles de texte, un clavier complet.
 
 ![Aide](captures/09-aide.png)
