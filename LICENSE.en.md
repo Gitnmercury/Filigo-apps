@@ -1,4 +1,4 @@
-# License of MarqueTaPage Desktop
+# License of Filigo
 
 *Courtesy translation. The French text (LICENSE.md) prevails in case of difference.*
 
@@ -10,7 +10,7 @@ Registered office: 200 rue de la Croix Nivert, 75015 Paris, France
 Contact: apps@ohtna.fr
 License requests: licence@ohtna.fr
 
-The software MarqueTaPage Desktop (source code, executables, interface, texts and graphic elements, hereinafter
+The software Filigo (source code, executables, interface, texts and graphic elements, hereinafter
 "the Software") is the property of Anthony BELKACEM EI (hereinafter "the Owner").
 
 ## 1. Rights granted

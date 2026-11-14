@@ -1,4 +1,4 @@
-# Privacy of MarqueTaPage Desktop
+# Privacy of Filigo
 
 **In short: your documents never leave your computer.** No account, no cloud, no telemetry, no advertising, no
 automatic update.
@@ -30,10 +30,10 @@ neither Word nor LibreOffice.
 
 | File | Content | How to delete it |
 |---|---|---|
-| `.filigrane_mes_documents.json` (home folder) | appearance settings: color, opacity, size, theme | delete the file |
-| `.filigrane_mes_documents_historique.json` (home folder) | history: date, recipient, purpose and location of the copies | "Clear history" button in the pane, or delete the file |
+| `.filigo.json` (home folder) | appearance settings: color, opacity, size, theme | delete the file |
+| `.filigo_historique.json` (home folder) | history: date, recipient, purpose and location of the copies | "Clear history" button in the pane, or delete the file |
 
-The watermark text is never saved in the settings. On Linux, the history is readable only by you. The temporary files
+The watermark text is never saved in the settings. The history is readable only by you: `0600` permissions on Linux, access restricted to your Windows account on Windows. The temporary files
 of a conversion are deleted as soon as it is finished.
 
 ## Watermarked copies

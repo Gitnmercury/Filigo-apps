@@ -9,14 +9,16 @@ sur toute la page, le **nom du destinataire, le motif et la date**. Une copie «
 location le 19/10/2026 » ne peut plus servir à ouvrir un compte ou à souscrire un crédit ailleurs : elle se voit tout de suite.
 
 **Tout se passe sur votre ordinateur** : pas de compte, pas de cloud, pas de télémétrie. Windows 10 / 11 et Linux
-(Debian, Ubuntu). Interface en français et en anglais. Version **1.3.0** (Windows) ; paquet Linux : version 1.1.0.
+(Debian, Ubuntu). Interface en français et en anglais. Version **1.4.0** (Windows) ; paquet Linux : version 1.1.0.
 
 *(English: **Your files never leave your machine. Zero cloud. Total sovereignty.** Filigo adds a watermark with the
 recipient, the purpose and the date across the copies of your ID, proof of address or payslips before you send them, to make
 identity theft harder. 100 % local. Windows 10/11 and Debian/Ubuntu. *The offline stamping utility designed for total privacy.*
 English mode: click the flag at the top right.)*
 
-![Filigo](captures/06-document-ouvert.png)
+![Filigo](captures/07-document-ouvert.png)
+
+**[Voir la vidéo de présentation (1 minute)](videos/presentation.mp4)**
 
 ## Télécharger
 
@@ -40,23 +42,24 @@ affiche l'empreinte du programme installé dans **Aide › Version et vérificat
 
 ## L'installation (Windows)
 
-Un assistant à l'ancienne, simple et sans surprise. Rien n'est téléchargé, rien n'est envoyé.
+Un assistant en cinq étapes, simple et sans surprise : un rail à gauche montre où vous en êtes. Rien n'est téléchargé, rien n'est envoyé.
 
 | | |
 |---|---|
 | ![Bienvenue](captures/01-installeur-accueil.png) | **Bienvenue.** Usage **particulier** : en continuant, vous déclarez installer et utiliser le logiciel en tant que particulier, à titre privé ; entreprise, association ou usage professionnel : bouton « Licence entreprise » (licence@ohtna.fr). Installation pour votre compte uniquement, sans droit administrateur. Si une version est déjà installée, l'assistant propose de la mettre à jour, de la réinstaller ou de la désinstaller. |
 | ![Word](captures/02-installeur-word.png) | **Fichiers Word.** L'assistant regarde si Microsoft Word, LibreOffice ou Apache OpenOffice est présent (sans les lancer) et dit lequel sera utilisé en priorité. Ils ne servent qu'à ouvrir les fichiers Word : les PDF et les photos fonctionnent sans rien d'autre. |
-| ![Installation](captures/03-installeur-installation.png) | **Installation.** Barre à blocs et petites astuces d'usage pendant la copie des fichiers. Pour désinstaller ensuite : Paramètres › Applications › Applications installées. |
+| ![Installation](captures/03-installeur-installation.png) | **Installation.** Barre de progression et petites astuces d'usage pendant la copie des fichiers. Pour désinstaller ensuite : Paramètres › Applications › Applications installées. |
+| ![Terminé](captures/04-installeur-termine.png) | **Terminé.** Une méthode en trois gestes (ouvrir, dire pour qui, enregistrer) et la case « Lancer Filigo maintenant ». |
 
 ## Comment ça marche
 
 Trois étapes ; la barre de conseil au-dessus de la page vous dit toujours la suivante.
 
-![Démarrage](captures/04-demarrage.png)
+![Démarrage](captures/05-demarrage.png)
 
-Au démarrage, l'écran de chargement indique la plateforme (Windows, ou Linux · Debian · Ubuntu sous Linux).
+Au démarrage, l'écran de chargement vérifie en direct les polices, le moteur PDF, le mode hors ligne et les convertisseurs Word, puis ouvre la fenêtre.
 
-![Ouverture du logiciel](captures/05-ouverture.png)
+![Ouverture du logiciel](captures/06-accueil.png)
 
 **1. Ouvrez votre document.** Un clic sur la page blanche, ou glissez le fichier dessus : PDF, photo (JPG, PNG, WEBP, TIFF)
 ou Word. Le volet de gauche se découvre au fil de la démarche : « 1. Votre document » d'abord, puis « 2. Pour qui » et
@@ -71,13 +74,13 @@ première image).
 
 ## Exemples
 
-![Pièce d'identité sur A4](captures/07-piece-identite-a4.png)
+![Pièce d'identité sur A4](captures/08-piece-identite-a4.png)
 
 **Une carte d'identité en photo.** Choisissez son type : la carte est posée **à sa taille réelle** sur une page A4, recto et
 verso ensemble, prête à imprimer. Son filigrane est plus léger (15 %) pour que la ligne de chiffres du bas reste lisible par
 les services en ligne.
 
-![Fiche de paie en PDF](captures/08-pdf-pixelisation.png)
+![Fiche de paie en PDF](captures/09-fiche-de-paie.png)
 
 **Une fiche de paie en PDF.** Un IBAN, un nom, un numéro de sécurité sociale : dessinez un rectangle ou un rond sur la page,
 la zone est **pixellisée** en gros carrés (comme dans Greenshot) pour de bon dans la copie. Les fichiers Word se traitent de la
@@ -90,19 +93,35 @@ même façon (convertis sur votre ordinateur).
 - Une **trame de très petits caractères** (destinataire et date) couvre aussi les marges, et le contour des lettres est
   légèrement irrégulier pour gêner l'effacement automatique.
 - Des **avertissements bienveillants** : destinataire trop vague, date passée.
-- **Connecteurs** : en bas de la fenêtre, un carré coloré par outil de conversion Word (vert : présent, orange : non installé, rouge :
-  ne fonctionne pas) ; Aide › Tester les connecteurs fait un essai réel.
+- **Connecteurs** : en bas de la fenêtre, une icône par outil de conversion Word (coche verte : présent, tiret orange : non installé, point
+  d'exclamation rouge : ne fonctionne pas) ; Aide › Connecteurs, puis « Tester les connecteurs », fait un essai réel.
 
-![Connecteurs](captures/11-connecteurs.png)
+![Connecteurs](captures/18-connecteurs.png)
 
-- Trois thèmes (Bleu, Argent, Sombre), trois tailles de texte, un clavier complet.
+- **Zoom** de l'aperçu (25 à 300 %), un clic pour revenir à 100 %, et un clavier complet.
 
-![Aide](captures/09-aide.png)
+![Zoom](captures/10-zoom.png)
 
-La boîte « Besoin d'aide ? » sous le document se déplie en trois cartes (elles s'assombrissent doucement quand on approche la
-souris) : une visite guidée animée, « Comment ça marche » et le « Guide de survie numérique ».
+- **Accessibilité** (menu avant Aide) : trois thèmes (Nuances de gris par défaut, Coloré, Bleu foncé), quatre polices libres choisies pour la
+  lisibilité (Nunito Sans, Atkinson Hyperlegible, Lexend, OpenDyslexic), trois tailles de texte, animations coupables.
 
-![Guide de survie numérique](captures/10-guide-de-survie-numerique.png)
+| | | |
+|---|---|---|
+| ![Gris](captures/13-theme-gris.png) | ![Coloré](captures/11-theme-colore.png) | ![Bleu foncé](captures/12-theme-bleu-fonce.png) |
+
+![Menu Accessibilité](captures/14-menu-accessibilite.png)
+
+![Aide](captures/15-aide.png)
+
+La boîte « Besoin d'aide ? » sous le document se déplie en trois cartes animées : une **visite guidée**, « Comment ça marche » et « Rester protégé »
+(le guide de survie numérique). Deux visites courtes se déroulent sur la vraie fenêtre, et sont proposées aux premiers lancements :
+**découvrir l'écran**, et **filigraner un document** pas à pas avec un exemple fictif.
+
+| | |
+|---|---|
+| ![Visite de l'écran](captures/16-visite-ecran.png) | ![Visite : filigraner un document](captures/17-visite-document.png) |
+
+![Guide de survie numérique](captures/19-guide-de-survie-numerique.png)
 
 Le guide donne quatre bons réflexes et, **si vous êtes victime d'un vol ou d'une usurpation**, qui prévenir (banque, police ou
 gendarmerie, cybermalveillance.gouv.fr, signal.arnaques.gouv.fr, service-public.fr, cnil.fr).

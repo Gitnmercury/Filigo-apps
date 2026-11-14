@@ -1,6 +1,6 @@
 # Third-party components
 
-MarqueTaPage Desktop belongs to Anthony BELKACEM EI (see LICENSE.md). It relies on the following components, which
+Filigo belongs to Anthony BELKACEM EI (see LICENSE.md). It relies on the following components, which
 remain the property of their holders and are subject to their own licenses.
 
 | Component | Owner | License |
@@ -13,8 +13,12 @@ remain the property of their holders and are subject to their own licenses.
 | Microsoft Word (optional, Word to PDF conversion) | Microsoft | User's own license, not provided |
 | LibreOffice (optional, Word to PDF conversion) | The Document Foundation | MPL 2.0, not provided |
 | Nunito Sans (interface and watermark font, provided in src/fonts with its OFL.txt license) | The Nunito Sans Project Authors | SIL Open Font License 1.1 |
+| Atkinson Hyperlegible (optional font, Accessibility › Font; src/fonts, licence OFL-atkinson.txt) | Braille Institute of America, Inc. | SIL Open Font License 1.1 |
+| Lexend (optional font; src/fonts, licence OFL-lexend.txt) | The Lexend Project Authors | SIL Open Font License 1.1 |
+| OpenDyslexic (optional font; src/fonts, licence OFL-opendyslexic.txt) | Abbie Gonzalez | SIL Open Font License 1.1 |
 | System fonts (if Nunito Sans is missing) (Segoe UI, Arial, DejaVu Sans, Liberation Sans) | Microsoft; DejaVu project; Red Hat | Provided by the system, not redistributed |
 | Icon, startup banner and Blue, Champagne, Lavender wallpapers (images generated with Leonardo; Lucid Origin model for the banner; 18/10/2026) | Anthony BELKACEM EI | Private creations, paid Leonardo subscription |
+| Lucide icons (src/icones_svg, converted to PNG) | Lucide Icons and contributors | ISC |
 | Claude Code (development tool, not shipped) | Anthropic | Not part of the delivered software |
 
 Third-party trademarks remain the property of their holders.

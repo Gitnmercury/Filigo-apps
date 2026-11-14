@@ -1,4 +1,4 @@
-# Confidentialité de MarqueTaPage Desktop
+# Confidentialité de Filigo
 
 **En bref : vos documents ne quittent pas votre ordinateur.** Pas de compte, pas de cloud, pas de télémétrie, pas
 de publicité, pas de mise à jour automatique.
@@ -30,10 +30,10 @@ document depuis Internet. Les PDF et les photos n'utilisent ni Word ni LibreOffi
 
 | Fichier | Contenu | Comment l'effacer |
 |---|---|---|
-| `.filigrane_mes_documents.json` (dossier personnel) | réglages d'apparence : couleur, opacité, taille, thème | supprimer le fichier |
-| `.filigrane_mes_documents_historique.json` (dossier personnel) | historique : date, destinataire, motif et emplacement des copies | bouton « Effacer l'historique » du volet, ou supprimer le fichier |
+| `.filigo.json` (dossier personnel) | réglages d'apparence : couleur, opacité, taille, thème | supprimer le fichier |
+| `.filigo_historique.json` (dossier personnel) | historique : date, destinataire, motif et emplacement des copies | bouton « Effacer l'historique » du volet, ou supprimer le fichier |
 
-Le texte du filigrane n'est jamais enregistré dans les réglages. Sous Linux, l'historique n'est lisible que par vous.
+Le texte du filigrane n'est jamais enregistré dans les réglages. L'historique n'est lisible que par vous : droits `0600` sous Linux, droits restreints à votre compte Windows sous Windows.
 Les fichiers temporaires d'une conversion sont supprimés dès qu'elle est terminée.
 
 ## Les copies filigranées
