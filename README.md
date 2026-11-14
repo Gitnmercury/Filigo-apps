@@ -111,6 +111,10 @@ même façon (convertis sur votre ordinateur).
 
 ![Menu Accessibilité](captures/14-menu-accessibilite.png)
 
+- **Raccourcis clavier** : tout se fait aussi au clavier, avec des touches dessinées pour les repérer d'un coup d'œil.
+
+![Raccourcis clavier](captures/20-raccourcis-clavier.png)
+
 ![Aide](captures/15-aide.png)
 
 La boîte « Besoin d'aide ? » sous le document se déplie en trois cartes animées : une **visite guidée**, « Comment ça marche » et « Rester protégé »
