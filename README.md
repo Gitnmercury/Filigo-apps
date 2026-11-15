@@ -9,7 +9,7 @@ sur toute la page, le **nom du destinataire, le motif et la date**. Une copie «
 location le 19/10/2026 » ne peut plus servir à ouvrir un compte ou à souscrire un crédit ailleurs : elle se voit tout de suite.
 
 **Tout se passe sur votre ordinateur** : pas de compte, pas de cloud, pas de télémétrie. Windows 10 / 11 et Linux
-(Debian, Ubuntu). Interface en français et en anglais. Version **1.4.0** (Windows) ; paquet Linux : version 1.1.0.
+(Debian, Ubuntu). Interface en français et en anglais. Version **1.4.1** (Windows) ; paquet Linux : version 1.1.0.
 
 *(English: **Your files never leave your machine. Zero cloud. Total sovereignty.** Filigo adds a watermark with the
 recipient, the purpose and the date across the copies of your ID, proof of address or payslips before you send them, to make
@@ -27,7 +27,7 @@ Les fichiers sont dans les **[Releases](../../releases/latest)** :
 | Système | Fichier | Installation |
 |---|---|---|
 | Windows 10 / 11 | `install_filigo.exe` | double-clic ; aucun droit administrateur ; installe pour votre compte |
-| Debian 12+, Ubuntu 24.04+ (64 bits) | `filigo_1.4.0_amd64.deb` : **pas encore publié**. En attendant, l'ancien paquet `marquetapage-desktop_1.1.0_amd64.deb` (ancien nom de Filigo) reste dans la **[Release 1.1.0](../../releases/tag/v1.1.0)** | `sudo apt install ./<fichier>.deb` |
+| Debian 12+, Ubuntu 24.04+ (64 bits) | `filigo_1.4.1_amd64.deb` : **pas encore publié**. En attendant, l'ancien paquet `marquetapage-desktop_1.1.0_amd64.deb` (ancien nom de Filigo) reste dans la **[Release 1.1.0](../../releases/tag/v1.1.0)** | `sudo apt install ./<fichier>.deb` |
 
 Vérifiez l'empreinte SHA-256 donnée dans les notes de la Release (Windows : `Get-FileHash install_filigo.exe` ;
 Linux : `sha256sum fichier.deb`). L'installeur propose aussi « Vérifier ce fichier » (en bas de la première page), et l'application

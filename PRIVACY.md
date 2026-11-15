@@ -53,7 +53,9 @@ un court relevé technique, sans aucune donnée personnelle : la version de Fili
 Linux, Mac), la mémoire vive, le nombre de cœurs, la largeur d'écran, la langue, le thème et le convertisseur Word. Il est écrit sous
 forme d'un code court (par exemple `FG1-S2R4C3E3L1T2W1-V1.4.0`) et la fenêtre vous montre ce qu'il veut dire avant l'envoi. Un signalement
 de bogue peut s'en passer ; un avis ne peut pas être envoyé sans lui, pour que nous puissions l'interpréter. Ce que vous saisissez
-est transmis à l'éditeur pour traiter votre retour, et pour cela seulement.
+est transmis à l'éditeur pour traiter votre retour, et pour cela seulement. Si vous saisissez votre adresse, elle est aussi jointe, **chiffrée**,
+sur la même ligne que le code technique : seul l'auteur peut la lire avec sa clé privée, et la fenêtre vous le dit avant l'envoi. Filigo ne
+lit jamais d'adresse ailleurs que dans ce champ (ni compte Windows, ni messagerie).
 
 ## Contact
 

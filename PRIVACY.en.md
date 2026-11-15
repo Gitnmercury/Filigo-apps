@@ -51,7 +51,9 @@ Filigo sends nothing by itself: the message is prepared in your mail program and
 technical summary with no personal data: the Filigo version and, in ranges, your system (Windows 10, 11, Linux, Mac), memory, number
 of cores, screen width, language, theme and Word converter. It is written as a short code (for example `FG1-S2R4C3E3L1T2W1-V1.4.0`) and
 the window shows what it means before sending. A bug report can go without it; feedback cannot be sent without it, so that we can
-interpret it. What you type is passed to the publisher to handle your message, and for that only.
+interpret it. What you type is passed to the publisher to handle your message, and for that only. If you type your address, it is also
+attached, **encrypted**, on the same line as the technical code: only the author can read it with their private key, and the window tells
+you before sending. Filigo never reads an address from anywhere else than this field (neither your Windows account nor your mail program).
 
 ## Contact
 
