@@ -27,7 +27,7 @@ Les fichiers sont dans les **[Releases](../../releases/latest)** :
 | Système | Fichier | Installation |
 |---|---|---|
 | Windows 10 / 11 | `install_filigo.exe` | double-clic ; aucun droit administrateur ; installe pour votre compte |
-| Debian 12+, Ubuntu 24.04+ (64 bits) | `marquetapage-desktop_1.1.0_amd64.deb`, dans la **[Release 1.1.0](../../releases/tag/v1.1.0)** (pas de paquet Linux 1.3.0 pour l'instant) | `sudo apt install ./marquetapage-desktop_1.1.0_amd64.deb` |
+| Debian 12+, Ubuntu 24.04+ (64 bits) | `filigo_1.4.0_amd64.deb` : **pas encore publié**. En attendant, l'ancien paquet `marquetapage-desktop_1.1.0_amd64.deb` (ancien nom de Filigo) reste dans la **[Release 1.1.0](../../releases/tag/v1.1.0)** | `sudo apt install ./<fichier>.deb` |
 
 Vérifiez l'empreinte SHA-256 donnée dans les notes de la Release (Windows : `Get-FileHash install_filigo.exe` ;
 Linux : `sha256sum fichier.deb`). L'installeur propose aussi « Vérifier ce fichier » (en bas de la première page), et l'application
