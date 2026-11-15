@@ -46,6 +46,15 @@ moment d'enregistrer.
 Un filigrane rend la réutilisation frauduleuse d'une copie plus difficile et plus visible ; il ne peut pas l'empêcher
 dans tous les cas. Gardez vos originaux.
 
+## Contactez-nous (Aide › Contactez-nous)
+
+Filigo n'envoie rien lui-même : le message est préparé dans votre messagerie et c'est vous qui l'envoyez. Vous pouvez y joindre
+un court relevé technique, sans aucune donnée personnelle : la version de Filigo et, par tranches, votre système (Windows 10, 11,
+Linux, Mac), la mémoire vive, le nombre de cœurs, la largeur d'écran, la langue, le thème et le convertisseur Word. Il est écrit sous
+forme d'un code court (par exemple `FG1-S2R4C3E3L1T2W1-V1.4.0`) et la fenêtre vous montre ce qu'il veut dire avant l'envoi. Un signalement
+de bogue peut s'en passer ; un avis ne peut pas être envoyé sans lui, pour que nous puissions l'interpréter. Ce que vous saisissez
+est transmis à l'éditeur pour traiter votre retour, et pour cela seulement.
+
 ## Contact
 
 Anthony BELKACEM EI, 200 rue de la Croix Nivert, 75015 Paris. Questions : apps@ohtna.fr

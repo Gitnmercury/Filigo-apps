@@ -45,6 +45,14 @@ software's. Its suggested name is that of the original followed by `_filigrane`:
 A watermark makes fraudulent reuse of a copy harder and more visible; it cannot prevent it in every case. Keep your
 originals.
 
+## Contact us (Help › Contact us)
+
+Filigo sends nothing by itself: the message is prepared in your mail program and you send it yourself. You can attach a short
+technical summary with no personal data: the Filigo version and, in ranges, your system (Windows 10, 11, Linux, Mac), memory, number
+of cores, screen width, language, theme and Word converter. It is written as a short code (for example `FG1-S2R4C3E3L1T2W1-V1.4.0`) and
+the window shows what it means before sending. A bug report can go without it; feedback cannot be sent without it, so that we can
+interpret it. What you type is passed to the publisher to handle your message, and for that only.
+
 ## Contact
 
 Anthony BELKACEM EI, 200 rue de la Croix Nivert, 75015 Paris, France. Questions: apps@ohtna.fr
